@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6c805280-8e5f-48a7-a34f-12d336276f16" version="1">
+  <Properties>
+    <Name>Merchant_Republic_Of_Bachianity</Name>
+    <Description>A new civilization focused on generating as much gold as possible.</Description>
+    <CustomProperties></CustomProperties>
+    <Created>1685845334</Created>
+    <Teaser>Custom civ</Teaser>
+    <Authors>Bach Chiu</Authors>
+    <SpecialThanks>maconnolly</SpecialThanks>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="GameMode_Monopolies">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <File>Leader/Leader_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>Core/Civilization_Localisation.sql</File>
+      <File>Leader/Leader_Localisation.sql</File>
+    </UpdateText>
+    <UpdateColors id="NewAction">
+      <File>Leader/Leader_Colors.sql</File>
+      <File>Core/Civilization_Colors.sql</File>
+    </UpdateColors>
+    <UpdateArt id="NewAction">
+      <File>Merchant_Republic_Of_Bachianity.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="UpdateIcons">
+      <File>Core/NewIcons.sql</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>Core/Civilization_Config.sql</File>
+      <File>Leader/Leader_Core.sql</File>
+      <File>Core/Civilization_UA.sql</File>
+      <File>Core/Civilization_UD.sql</File>
+      <File>Core/Civilization_UU.sql</File>
+      <File>Leader/Leader_UA.sql</File>
+      <File>Leader/Leader_Agenda.sql</File>
+      <File>Leader/Leader_Screens.sql</File>
+      <File>Core/Civilization_HistoricMoments.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="NewAction">
+      <File>Leader/Leader_Colors.sql</File>
+      <File>Core/Civilization_Colors.sql</File>
+    </UpdateColors>
+    <UpdateText id="NewAction">
+      <File>Core/Civilization_Localisation.sql</File>
+      <File>Leader/Leader_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="NewIcons">
+      <File>Core/NewIcons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="NewAction">
+      <File>Merchant_Republic_Of_Bachianity.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="NewAction">
+      <Criteria>GameMode_Monopolies</Criteria>
+      <File>Core/MRB_Monopolies_MODE.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Core/Civilization_Colors.sql</File>
+    <File>Core/Civilization_Config.sql</File>
+    <File>Core/Civilization_HistoricMoments.sql</File>
+    <File>Core/Civilization_Localisation.sql</File>
+    <File>Core/Civilization_UA.sql</File>
+    <File>Core/Civilization_UD.sql</File>
+    <File>Core/Civilization_UU.sql</File>
+    <File>Core/MRB_Monopolies_MODE.sql</File>
+    <File>Core/NewIcons.sql</File>
+    <File>Leader/Leader_Agenda.sql</File>
+    <File>Leader/Leader_Colors.sql</File>
+    <File>Leader/Leader_Config.sql</File>
+    <File>Leader/Leader_Core.sql</File>
+    <File>Leader/Leader_Localisation.sql</File>
+    <File>Leader/Leader_Screens.sql</File>
+    <File>Leader/Leader_UA.sql</File>
+    <File>Merchant_Republic_Of_Bachianity.dep</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+  </Files>
+</Mod>
