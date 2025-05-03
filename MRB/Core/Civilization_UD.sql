@@ -64,7 +64,7 @@ SELECT	'DISTRICT_MERCHANT_TOWN',
 		CostProgressionParam1,
 		CostProgressionModel,
 		PlunderAmount,
-		PrereqTech
+		'TECH_WRITING'
 FROM	Districts
 WHERE	DistrictType = 'DISTRICT_COMMERCIAL_HUB';
 
@@ -115,15 +115,15 @@ VALUES	('Coast_Gold',	'LOC_DISTRICT_COAST_GOLD',	'YIELD_GOLD',	2,				1,				'TERR
 
 INSERT INTO Adjacency_YieldChanges
 		(ID,								Description,						YieldType,		YieldChange,	TilesRequired,	OtherDistrictAdjacent	)
-VALUES	('Merchant_Town_District_Gold',		'LOC_MERCHANT_TOWN_DISTRICT_GOLD',	'YIELD_GOLD',	1,				2,				1						);
+VALUES	('Merchant_Town_District_Gold',		'LOC_MERCHANT_TOWN_DISTRICT_GOLD',	'YIELD_GOLD',	1,				1,				1						);
 
 INSERT INTO Adjacency_YieldChanges
 		(ID,								Description,				YieldType,		YieldChange,	TilesRequired,	AdjacentWonder	)
-VALUES	('Wonder_Gold',						'LOC_WONDER_GOLD',			'YIELD_GOLD',	1,				2,				1				);
+VALUES	('Wonder_Gold',						'LOC_WONDER_GOLD',			'YIELD_GOLD',	1,				1,				1				);
 	
 INSERT INTO Adjacency_YieldChanges
 		(ID,								Description,				YieldType,		YieldChange,	TilesRequired,	AdjacentNaturalWonder	)
-VALUES	('NaturalWonder_Gold',				'LOC_NATURALWONDER_GOLD',	'YIELD_GOLD',	1,				2,				1						);
+VALUES	('NaturalWonder_Gold',				'LOC_NATURALWONDER_GOLD',	'YIELD_GOLD',	1,				1,				1						);
 
 INSERT INTO Adjacency_YieldChanges
 		(ID,						Description,		YieldType,		YieldChange,	TilesRequired,	AdjacentResourceClass	)

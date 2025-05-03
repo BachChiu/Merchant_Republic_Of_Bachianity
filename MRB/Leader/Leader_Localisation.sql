@@ -2,17 +2,17 @@
 -- Author: Bach Chiu
 -- DateCreated: 5/19/2023 8:00:01 PM
 --------------------------------------------------------------
-INSERT INTO LocalizedText
+INSERT OR REPLACE INTO LocalizedText
 		(Language,	Tag,	Text)
 VALUES	('en_US',	'LOC_LEADER_BC_BACH_NAME',	'Bach'),
-		/*--Bachian Economy Project
-		('en_US',	'LOC_PROJECT_BACHIAN_ECONOMY_DESCRIPTION',	'Grants 20% of Gold per turn as [ICON_Faith] Faith, [ICON_Culture] Culture, [ICON_Science] Science every time the project is completed.'),
+		--Bachian Economy Project
+		('en_US',	'LOC_PROJECT_BACHIAN_ECONOMY_DESCRIPTION',	'Increases [ICON_TradeRoute]Trade Route capacity by 1, +10%[ICON_Gold]Gold in this city, +1[ICON_Housing]Housing in this city, +20% to [ICON_GreatPerson]Great Person points generated in the capital, +1[ICON_Amenities] Amenity, reduce lifetime carbon emission by 20, and the city also gain +0.2[ICON_Culture] Culture, 0.2[ICON_Faith] Faith, and 0.2[ICON_Science] Science for every population when project is completed.'),
 		('en_US',	'LOC_PROJECT_BACHIAN_ECONOMY_SHORT_NAME',	'Bachian Economy'),
-		('en_US',	'LOC_PROJECT_BACHIAN_ECONOMY_NAME',			'Bachian Economy'),*/
+		('en_US',	'LOC_PROJECT_BACHIAN_ECONOMY_NAME',			'Bachian Economy'),
 		--Leader UA
 		('en_US',	'LOC_TRAIT_LEADER_BC_BACHIAN_ECONOMY_NAME',	'Bachian Economy'),
 		--('en_US',	'LOC_TRAIT_LEADER_BC_BACHIAN_ECONOMY_DESCRIPTION',	'Able to enact the Bachian Economy Project at the Government Plaza, granting 20% of Gold per turn as [ICON_Faith] Faith, [ICON_Culture] Culture, [ICON_Science] Science every time the project is completed. [NEWLINE][ICON_TradeRoute] Trade Routes receives +1[ICON_Gold] Gold for every tile the route travels. For every 5 tiles the route travel, the route also receives +1[ICON_Culture] Culture, +1[ICON_Faith] Faith, +1[ICON_Science] Science.'),
-		('en_US',	'LOC_TRAIT_LEADER_BC_BACHIAN_ECONOMY_DESCRIPTION',	'Able to purchase districts with [ICON_Gold]Gold.[NEWLINE][NEWLINE][ICON_TradeRoute] Trade Routes receives +2[ICON_Gold] Gold, +1[ICON_Culture]Culture, +1[ICON_Faith]Faith, +1[ICON_Science]Science for every 5 tiles the route travels. For every 10 tiles the route travel, the route also receives +1[ICON_Food]Food, +1[ICON_Production]Production.'),
+		('en_US',	'LOC_TRAIT_LEADER_BC_BACHIAN_ECONOMY_DESCRIPTION',	'Able to enact the Bachian Economy Project at the Government Plaza, which increases [ICON_TradeRoute]Trade Route capacity by 1, +1[ICON_Housing]Housing in this city, +10%[ICON_Gold]Gold in this city, +20% to [ICON_GreatPerson]Great Person points generated in the capital, +1[ICON_Amenities] Amenity, reduce lifetime carbon emission by 20, and the city also gain +0.2[ICON_Culture] Culture, 0.2[ICON_Faith] Faith, and 0.2[ICON_Science] Science for every population. [NEWLINE] Able to purchase districts with [ICON_Gold]Gold in the capital.[NEWLINE][ICON_TradeRoute] Trade Routes receives +1[ICON_Gold] Gold for every tile the route travels. For every 5 tiles the route travel, the route also receives +1[ICON_Food]Food, +1[ICON_Production]Production.[NEWLINE][NEWLINE]MRB receives 10% of [ICON_Gold]Gold per turn as [ICON_Faith]Faith, [ICON_Culture]Culture, and [ICON_Science]Science.[NEWLINE]Cities that are not the capital cannot build districts, and have no yield. Cannot build settlers, however, settlers instead have +200[ICON_Movement] Movement'),
 		--Leader Agenda
 		('en_US',	'LOC_AGENDA_BC_BACH_NAME',	'Economist'),
 		('en_US',	'LOC_AGENDA_BC_BACH_DESCRIPTION',	'Always look to make as much money as possible. Respects those with high income, and dislike those with low income'),

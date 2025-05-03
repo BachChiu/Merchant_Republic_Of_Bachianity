@@ -11,10 +11,10 @@ VALUES
 		('en_US',	'LOC_CIVILIZATION_BC_MRB_ADJECTIVE',							'Bachian'							),
 		--Civilization UA
 		('en_US',	'LOC_TRAIT_CIVILIZATION_BC_BACHIAN_WORK_ETHICS_NAME',			'Bachian Work Ethics'),
-		('en_US',	'LOC_TRAIT_CIVILIZATION_BC_BACHIAN_WORK_ETHICS_DESCRIPTION',	'Commercial Hubs provides [ICON_Production] Production equal to their adjacency bonus.[NEWLINE][NEWLINE][ICON_TradeRoute] Trade Routes sent by the MRB immediately creates a [ICON_TradingPost] Trading Post at the destination.'),
+		('en_US',	'LOC_TRAIT_CIVILIZATION_BC_BACHIAN_WORK_ETHICS_DESCRIPTION',	'Commercial Hubs provides [ICON_Production] Production equal to their adjacency bonus.[NEWLINE][NEWLINE][ICON_TradeRoute]Trade Routes sent by the MRB cannot be plundered and immediately creates a [ICON_TradingPost] Trading Post at the destination.'),
 		--Civilization UD
 		('en_US',	'LOC_DISTRICT_MERCHANT_TOWN_NAME',								'Merchant Town'),
-		('en_US',	'LOC_DISTRICT_MERCHANT_TOWN_DESCRIPTION',						'A district unique to the MRB. Replaces the Commercial Hub district and cheaper to build.[NEWLINE][NEWLINE]+1[ICON_Gold] Gold bonus for every 2 adjacent districts, wonders, or natural wonders. +2[ICON_Gold] Gold bonus from each coast/lake tile, +2[ICON_Gold] Gold bonus if adjacent to a river. +2[ICON_Gold] Gold bonus for each adjacent luxury resources. +2[ICON_Gold] Gold bonus for each adjacent harbor.'),
+		('en_US',	'LOC_DISTRICT_MERCHANT_TOWN_DESCRIPTION',						'A district unique to the MRB. Replaces the Commercial Hub district, it is available earlier and is cheaper to build.[NEWLINE][NEWLINE]+1[ICON_Gold] Gold bonus for every adjacent district, wonder, or natural wonder. +2[ICON_Gold] Gold bonus from each coast/lake tile, +2[ICON_Gold] Gold bonus if adjacent to a river. +2[ICON_Gold] Gold bonus for each adjacent luxury resources. +2[ICON_Gold] Gold bonus for each adjacent harbor.'),
 		('en_US',	'LOC_DISTRICT_COAST_GOLD',										'+{1_num}[ICON_Gold] from adjacent coast/lake tile'),
 		('en_US',	'LOC_MERCHANT_TOWN_DISTRICT_GOLD',								'+{1_num}[ICON_Gold] from adjacent districts'),
 		('en_US',	'LOC_NATURALWONDER_GOLD',										'+{1_num}[ICON_Gold] from adjacent natural wonders.'),

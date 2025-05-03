@@ -45,15 +45,18 @@
   </FrontEndActions>
   <InGameActions>
     <UpdateDatabase id="NewAction">
-      <File>Core/Civilization_Config.sql</File>
-      <File>Leader/Leader_Core.sql</File>
-      <File>Core/Civilization_UA.sql</File>
-      <File>Core/Civilization_UD.sql</File>
-      <File>Core/Civilization_UU.sql</File>
-      <File>Leader/Leader_UA.sql</File>
-      <File>Leader/Leader_Agenda.sql</File>
-      <File>Leader/Leader_Screens.sql</File>
-      <File>Core/Civilization_HistoricMoments.sql</File>
+      <Properties>
+				<LoadOrder>1000000</LoadOrder>
+		  </Properties>
+        <File>Core/Civilization_Config.sql</File>
+        <File>Leader/Leader_Core.sql</File>
+        <File>Core/Civilization_UA.sql</File>
+        <File>Core/Civilization_UD.sql</File>
+        <File>Core/Civilization_UU.sql</File>
+        <File>Leader/Leader_UA.sql</File>
+        <File>Leader/Leader_Agenda.sql</File>
+        <File>Leader/Leader_Screens.sql</File>
+        <File>Core/Civilization_HistoricMoments.sql</File>
     </UpdateDatabase>
     <UpdateColors id="NewAction">
       <File>Leader/Leader_Colors.sql</File>

@@ -84,7 +84,7 @@ VALUES	('CIVILIZATION_BC_MRB',		'LOC_CIVINFO_LOCATION',		'LOC_CIVINFO_BC_MRB_LOC
 -- StartBias
 INSERT INTO	StartBiasTerrains
 		(CivilizationType,			TerrainType,			Tier	)
-VALUES	('CIVILIZATION_BC_MRB',		'TERRAIN_COAST',		3		);
+VALUES	('CIVILIZATION_BC_MRB',		'TERRAIN_COAST',		1		);
 
 INSERT INTO	StartBiasResources
 		(CivilizationType,			ResourceType,			Tier	)
@@ -95,4 +95,4 @@ VALUES	('CIVILIZATION_BC_MRB',		'RESOURCE_DIAMONDS',	1		),
 
 INSERT INTO	StartBiasRivers
 		(CivilizationType,			Tier	)
-VALUES	('CIVILIZATION_BC_MRB',		5		);
+VALUES	('CIVILIZATION_BC_MRB',		1		);
