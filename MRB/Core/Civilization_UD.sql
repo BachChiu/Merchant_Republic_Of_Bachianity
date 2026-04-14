@@ -64,7 +64,7 @@ SELECT	'DISTRICT_MERCHANT_TOWN',
 		CostProgressionParam1,
 		CostProgressionModel,
 		PlunderAmount,
-		'TECH_WRITING'
+		'TECH_POTTERY'
 FROM	Districts
 WHERE	DistrictType = 'DISTRICT_COMMERCIAL_HUB';
 
